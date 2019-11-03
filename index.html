@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Energy Calculator</title>
+  
+    <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+  
+  
+  <!-- Navbar -->
+  <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="home.html">Energy Calculator</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Add ESS</a>
+      </li>
+      
+       <li class="nav-item">
+        <a class="nav-link disabled" href="#">View ESS</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+      
+      
+      
+    </div>
+    
+    
+
+      
+    </div>
+        
+    </div>
+    
+<div style ="margin: 50px;"> 
+
+ 
+
+
+
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Installation Cost Calculation
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        <!-- Form for Cost Calculation-->
+                    <form>
+            <div class="form-group row">
+              <label for="inputNumber" class="col-sm-2 col-form-label">Number of Installations</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="inputNumber" placeholder="Number of Installations">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputCost" class="col-sm-2 col-form-label">Cost per Installation (in €)</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="inputCost" placeholder="Cost in €">
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-10">
+                <input type="button" class="btn btn-primary" id="signin_button" value="Calculate"></button>
+              </div>
+            </div>
+          </form>
+          
+          <h3>Vergangene Berechnungen</h3>
+          <ul class="list-group" id="calcList">
+        </ul>
+          
+          
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Calculate Stored Gross Energy
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        <!-- Form for Brutto Energieinhalt --> 
+        
+          <form>
+            <div class="form-group row">
+              <label for="inputCost" class="col-sm-2 col-form-label">Effieciency Charge Converter</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="wirkungsgrad" placeholder="Effieciency Charge Converter">
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label for="inputNumber" class="col-sm-2 col-form-label">Loading power (in W)</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="ladeleistung" placeholder="Loading power (in W)">
+              </div>
+            </div>
+            
+            <div class="form-group row">
+              <label for="inputNumber" class="col-sm-2 col-form-label">Loading duration (in Min.)</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="ladedauer" placeholder="Loading duration (in Min.)">
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-10">
+                <input type="button" class="btn btn-primary" id="submit_energieinhalt" value="Calculate"></button>
+              </div>
+            </div>
+          </form>
+          <h3>Past Calculations</h3>
+          <ul class="list-group" id="energieinhaltList">
+        </ul>
+          
+        
+        
+              </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Installation Analyzer
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        <form>
+            <div class="form-group row">
+              <label for="instStorage" class="col-sm-2 col-form-label">Storage in MWh</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="instStorage" placeholder="Storage in MWh">
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label for="instMasse" class="col-sm-2 col-form-label">Mass in KG</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="instMasse" placeholder="Mass in KG">
+              </div>
+            </div>
+            
+            <div class="form-group row">
+              <label for="instPrice" class="col-sm-2 col-form-label">Price in €</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="instPrice" placeholder="Price in €">
+              </div>
+            </div>
+             <div class="form-group row">
+              <label for="instDischarge" class="col-sm-2 col-form-label">Self-Discharge (in % per hour)</label>
+              <div class="col-sm-10">
+                <input type="number"class="form-control" id="instDischarge" placeholder="Self-Discharge (in % per hour)">
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-10">
+                <input type="button" class="btn btn-primary" id="submit_inst" value="Add Installation"></button>
+              </div>
+            </div>
+            
+            <div class="form-group row">
+              <div class="col-sm-10">
+                <input type="button" class="btn btn-primary" id="submitDuration" value="Identify Longest Duration"></button>
+              </div>
+            </div>
+
+            
+          </form>
+          <h3>Added Installations</h3>
+          <ul class="list-group" id="installationList">
+        </ul>  
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  
+  <script type="text/javascript" src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-"></script>
+
+</body>
+</html>
+
