@@ -59,6 +59,7 @@ submit2.addEventListener("click", createEnergieinhaltElement);
 
 var submit3 = document.getElementById("submit_inst");
 var submit4 = document.getElementById("submitDuration");
+var submit5 = document.getElementById("submitCheapest");
 var instStorage = document.getElementById("instStorage");
 var instMasse = document.getElementById("instMasse");
 var instPrice = document.getElementById("instPrice");
@@ -106,6 +107,8 @@ const addInstallation = () => {
 
 // Add Elements to List of Elements 
 
+
+
 const createInstallation = () =>  {
     var li = document.createElement("li");
     li.className = "list-group-item";
@@ -126,28 +129,61 @@ const createInstallation = () =>  {
     
 }
 
-
-const calculateLongest = () => {
+const checkInstallationsNotEmpty = () => {
     if(installations.length === 0) {
         alert ("Error: Installation list is empty. Please add installations.");
+        return false; 
     }
-    else{
+    else return true; 
+}
+
+
+const calculateLongest = () => {
+    if(checkInstallationsNotEmpty()){
     
     let currentLongest = 0; 
     let currentLongestInstallation = 0;
     let number = 0; 
+    let duration = 0; 
     
     let longest = installations.map((installation, i) => {
-        if(installation.getStorage()>=currentLongest){
+        
+        duration = 100/installation.getDischarge();  
+        if(duration>=currentLongest){
             currentLongestInstallation = i; 
-            currentLongest = installation.getStorage; 
+            currentLongest = duration; 
             number = i+1; 
-            //alert("This here is longer: "+installation.summary());
         }
         
      });
         
-    alert("Installation "+number+" with specs "+installations[currentLongestInstallation].summary()+" has the longest duration.");
+    alert("Installation "+number+" with specs "+installations[currentLongestInstallation].summary()+" has the longest duration: "+duration+" hours.");
+        
+    }
+    
+}
+
+
+const calculateCheapest = () => {
+    if(checkInstallationsNotEmpty()){
+    
+    let currentCheapest = 0; 
+    let currentCheapestInstallation = 0;
+    let number = 0; 
+    let costPerMwh = 0; 
+    
+    let longest = installations.map((installation, i) => {
+        
+        costPerMwh = installation.getStorage()/installation.getPrice();  
+        if(costPerMwh>=currentCheapest){
+            currentCheapestInstallation = i; 
+            currentCheapest = costPerMwh; 
+            number = i+1; 
+        }
+        
+     });
+        
+    alert("Installation "+number+" with specs "+installations[currentCheapestInstallation].summary()+" is the cheapest with "+currentCheapest+" MWh per €.");
         
     }
     
@@ -156,4 +192,6 @@ const calculateLongest = () => {
 
 submit3.addEventListener("click", createInstallation); // instantiate createInstallation Function
 submit4.addEventListener("click", calculateLongest); // instantiate createInstallation Function
+submit5.addEventListener("click", calculateCheapest); // instantiate createInstallation Function
+
 
