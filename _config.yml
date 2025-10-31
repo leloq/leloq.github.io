@@ -34,7 +34,6 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - index.markdown
   - about.markdown
   - research.md
   - publications.md
