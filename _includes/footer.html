@@ -1,0 +1,21 @@
+<footer class="site-footer">
+    <div class="wrapper">
+        <div class="footer-col-wrapper">
+            <div class="footer-col">
+                <p>Leo Semmelmann | Postdoctoral Researcher in Smart Grids and Energy Markets</p>
+            </div>
+            <div class="footer-col">
+                <ul class="social-media-list">
+                    {%- if site.github_username -%}
+                    <li><a href="https://github.com/{{ site.github_username | cgi_escape | escape }}">GitHub</a></li>
+                    {%- endif -%}
+                    {%- if site.linkedin_username -%}
+                    <li><a href="https://www.linkedin.com/in/{{ site.linkedin_username | cgi_escape | escape }}">LinkedIn</a></li>
+                    {%- endif -%}
+                    <li><a href="https://scholar.google.de/citations?user=Q8kwegEAAAAJ&hl=de&oi=ao">Google Scholar</a></li>
+                    <li><a href="mailto:{{ site.email }}">Email</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
