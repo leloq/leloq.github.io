@@ -23,7 +23,7 @@
 title: Leo Semmelmann
 email: leo.semmelmann at kit.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Postdoctoral Researcher - Focus o Heat Pump and Battery Flexibility
+  Postdoctoral Researcher - Focus on Heat Pump and Battery Flexibility
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "leloq.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  leloq
@@ -33,13 +33,16 @@ theme: minima
 plugins:
   - jekyll-feed
 
+sass:
+  style: compressed
+  load_paths:
+    - _sass
 
 header_pages:
   - about.markdown
-  - research.md
+  - projects.md
   - publications.md
   - teaching.md
-  - cv.md
   - contact.md
 
 

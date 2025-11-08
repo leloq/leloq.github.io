@@ -8,11 +8,13 @@ permalink: /publications/
 
 ### 2025
 
-- Semmelmann, L., Kaiser, K., Heider, A., Kircher, K. J., Hug, G., & Weinhardt, C. (2025). [Analyzing the Impact of Dynamic Tariff Adoption and Regulatory Options on Distribution Grids with an Open-Source Framework](). In *Proceedings of the 16th ACM International Conference on Future and Sustainable Energy Systems* (pp. 515-533).
+- Premer, L. D. R., Pergantis, E. N., Semmelmann, L., Ziviani, D., & Kircher, K. J. (2026). Model predictive control lowers barriers to adoption of heat-pump water heaters: A field study. *Energy Conversion and Management*, 348, 120723.
 
-- Miskiw, K. K., Ludwig, J., Semmelmann, L., & Weinhardt, C. (2025). [Continuous Intraday Trading: An Open-Source Multi-Market Bidding Framework for Energy Storage Systems](). In *Proceedings of the 16th ACM International Conference on Future and Sustainable Energy Systems* (pp. 277-292).
+- Semmelmann, L., Kaiser, K., Heider, A., Kircher, K. J., Hug, G., & Weinhardt, C. (2025). [Analyzing the Impact of Dynamic Tariff Adoption and Regulatory Options on Distribution Grids with an Open-Source Framework. In *Proceedings of the 16th ACM International Conference on Future and Sustainable Energy Systems* (pp. 515-533).
 
-- Semmelmann, L., & Brudermueller, T. (2025). [Rapidly Trainable Large-Scale Probabilistic Heat Pump Load Forecasting: A Kernel Density Estimation Approach](). In *Proceedings of the 16th ACM International Conference on Future and Sustainable Energy Systems* (pp. 727-732).
+- Miskiw, K. K., Ludwig, J., Semmelmann, L., & Weinhardt, C. (2025). Continuous Intraday Trading: An Open-Source Multi-Market Bidding Framework for Energy Storage Systems. In *Proceedings of the 16th ACM International Conference on Future and Sustainable Energy Systems* (pp. 277-292).
+
+- Semmelmann, L., & Brudermueller, T. (2025). Rapidly Trainable Large-Scale Probabilistic Heat Pump Load Forecasting: A Kernel Density Estimation Approach(). In *Proceedings of the 16th ACM International Conference on Future and Sustainable Energy Systems* (pp. 727-732).
 
 ### 2024
 
@@ -41,11 +43,3 @@ permalink: /publications/
 - Kucevic, D., Semmelmann, L., Collath, N., Jossen, A., & Hesse, H. (2021). Peak shaving with battery energy storage systems in distribution grids: a novel approach to reduce local and global peak loads. *Electricity*, 2(4), 573-589.
 
 ---
-
-## Under Review
-
-- Premer, L., Pergantis, E., Semmelmann, L., Ziviani, D., & Kircher, K. Predictive control can lower barriers to heat-pump water heater adoption
-
-- Semmelmann, L. & vom Scheidt, F. The impact of heatwave-driven air conditioning adoption on electricity demand: A spatio-temporal case study for Germany
-
-- Semmelmann, L., Kimbrough, S., & Staudt, P. Aggregator Price Guarantees for Households with Flexibility Potential and Thermal Building Inertia
