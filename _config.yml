@@ -25,7 +25,7 @@ email: leo.semmelmann at kit.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Postdoctoral Researcher - Focus on Heat Pump and Battery Flexibility
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "leosemmelmann.com" #"leloq.github.io"  the base hostname & protocol for your site, e.g. http://example.com
+url: "https://leosemmelmann.com" #"leloq.github.io"  the base hostname & protocol for your site, e.g. http://example.com
 github_username:  leloq
 linkedin_username: leo-semmelmann-197157b0
 
