@@ -169,7 +169,7 @@ Open-source projects and tools for energy research and smart grid applications.
     </div>
     
     <div class="project-note">
-      This project is led by my brilliant colleague Kim Miskiw, and I am just a contributor here. I included it here, since it is a great source to get involved with the difficult problem of multi-market bidding on the day-ahead and continuous intraday market.
+      This project is led by my colleague Kim K. Miskiw, and I am just a contributor here. I included it here, since it is a great source to get involved with the difficult problem of multi-market bidding on the day-ahead and continuous intraday market.
     </div>
   </div>
 </div>
