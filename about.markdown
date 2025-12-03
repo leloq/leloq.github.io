@@ -30,7 +30,7 @@ Besides my interest in learning new things and building software solutions, I en
 ## Positions
 
 **Postdoctoral Researcher** | KIT Chair of Information and Market Engineering *(2025–present)*  
-Leading research on smart grid flexibility and energy market design.
+Leading research group on smart grid flexibility and energy market design.
 
 **Co-Founder** | Quantensprung Energy Consulting *(2025–present)*  
 Supporting international technology and energy companies with flexibility projects, machine learning applications, and data-driven investment decisions for renewable energy, storage, and hydrogen across European markets.

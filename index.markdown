@@ -6,7 +6,7 @@ title: Home
 <table style="width: 100%; border: none;">
   <tr>
     <td style="vertical-align: top; padding-right: 40px; width: 40%; border: none;">
-      <img src="/assets/images/profile.jpeg" alt="Leo Semmelmann" style="width: 100%; border-radius: 2px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+      <img src="/assets/images/profile2.jpeg" alt="Leo Semmelmann" style="width: 100%; border-radius: 2px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
     </td>
     <td style="vertical-align: top; border: none;">
       <h2>Welcome</h2>

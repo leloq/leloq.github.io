@@ -6,6 +6,10 @@ permalink: /publications/
 
 ## Peer-Reviewed Publications
 
+### Preprint
+
+- Semmelmann, L., Kimbrough, S. O., Staudt, P. (2026). Aggregator Price Guarantees for Households with Flexibility Potential and Thermal Building Inertia.
+
 ### 2025
 
 - Premer, L. D. R., Pergantis, E. N., Semmelmann, L., Ziviani, D., & Kircher, K. J. (2026). Model predictive control lowers barriers to adoption of heat-pump water heaters: A field study. *Energy Conversion and Management*, 348, 120723.
@@ -14,7 +18,7 @@ permalink: /publications/
 
 - Miskiw, K. K., Ludwig, J., Semmelmann, L., & Weinhardt, C. (2025). Continuous Intraday Trading: An Open-Source Multi-Market Bidding Framework for Energy Storage Systems. In *Proceedings of the 16th ACM International Conference on Future and Sustainable Energy Systems* (pp. 277-292).
 
-- Semmelmann, L., & Brudermueller, T. (2025). Rapidly Trainable Large-Scale Probabilistic Heat Pump Load Forecasting: A Kernel Density Estimation Approach(). In *Proceedings of the 16th ACM International Conference on Future and Sustainable Energy Systems* (pp. 727-732).
+- Semmelmann, L., & Brudermueller, T. (2025). Rapidly Trainable Large-Scale Probabilistic Heat Pump Load Forecasting: A Kernel Density Estimation Approach. In *Proceedings of the 16th ACM International Conference on Future and Sustainable Energy Systems* (pp. 727-732).
 
 ### 2024
 
