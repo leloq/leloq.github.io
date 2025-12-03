@@ -13,13 +13,15 @@ Besides my interest in learning new things and building software solutions, I en
 
 ## Education
 
-**Ph.D.** | Karlsruher Institut für Technologie (KIT)  
+**Ph.D.** | Karlsruher Institut für Technologie (KIT)  <br>
+Title: Dynamic Tariff Adoption in Electricity Markets: Bridging Policy, Technology and Behavior (Summa cum laude)  <br>
 *January 2022 – April 2025*
 
 **Visiting Researcher** | Purdue University  
 *February 2024 – April 2024*
 
-**M.Sc. Management and Technology (Majors in Computer Science and Energy Markets)** | Technische Universität München (TUM)  
+**M.Sc. Management and Technology (Majors in Computer Science and Energy Markets)** Technische Universität München (TUM)  <br>
+Title: Impact of industrial peak shaving on the distribution grid <br>
 *October 2018 – July 2021*
 
 **B.Sc. Economics** | Johannes Gutenberg Universität Mainz  
